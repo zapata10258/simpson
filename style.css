@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  
+}
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: oblique;
+  
+  box-shadow: rgb(0, 0, 0);
+  color: rgb(240, 14, 14);
+}
+#card{
+  width: 50rem;
+  height: 40rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 5px;
+  border-radius: 10px;
+  border: solid 3px rgb(0, 0, 0);
+  background-color: rgb(76, 177, 227);
+}
+
+#img{
+  width: 100%;
+  height: 100%;
+}
+
+P{
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+#btn-generate{
+  padding: 4px;
+  margin-top: 7rem;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  border: solid 2px green;
+  background-color: rgb(130, 190, 216);
+}
